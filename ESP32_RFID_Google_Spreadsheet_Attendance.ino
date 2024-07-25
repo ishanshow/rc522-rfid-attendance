@@ -4,7 +4,6 @@
 #include <MFRC522.h>
 #include "WiFi.h"
 #include <HTTPClient.h>
-//----------------------------------------
 
 // Defines SS/SDA PIN and Reset PIN for RFID-RC522.
 #define SS_PIN  5  
