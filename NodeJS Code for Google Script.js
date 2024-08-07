@@ -48,7 +48,6 @@ function doGet(e) {
           // result += ",unsupported_parameter";
       }
     }
-    //----------------------------------------
     
     //----------------------------------------Conditions for registering new users.
     if (sts_val == 'reg') {
@@ -71,7 +70,6 @@ function doGet(e) {
       // Sends response payload to ESP32.
       return ContentService.createTextOutput(result);
     }
-    //----------------------------------------
 
     //----------------------------------------Conditions for filling attendance (Time In and Time Out).
     if (sts_val == 'atc') {
@@ -122,7 +120,6 @@ function doGet(e) {
             }
           }
         }
-        //..................
         
         //..................Conditions for filling in "Time In" attendance.
         if (enter_data == "time_in") {
@@ -137,7 +134,6 @@ function doGet(e) {
           result += ",TI_Successful" + "," + user_name_by_UID + "," + Curr_Date + "," + Curr_Time;
           return ContentService.createTextOutput(result);
         }
-        //..................
         
         //..................Conditions for filling in "Time Out" attendance.
         if (enter_data == "time_out") {
@@ -147,7 +143,6 @@ function doGet(e) {
           // Sends response payload to ESP32.
           return ContentService.createTextOutput(result);
         }
-        //..................
         
         //..................Condition when "Time In" and "Time Out" are filled.
         if (enter_data == "finish") {
@@ -156,7 +151,6 @@ function doGet(e) {
           // Sends response payload to ESP32.
           return ContentService.createTextOutput(result);
         }
-        //..................
       }
     }
     //----------------------------------------
