@@ -79,7 +79,6 @@ void http_Req(String str_modes, String str_uid) {
     
     Serial.println("-------------");
     http.end();
-    //----------------------------------------
     
     String sts_Res = getValue(payload, ',', 0);
 
@@ -136,7 +135,6 @@ void http_Req(String str_modes, String str_uid) {
         atc_Time_In = "";
         atc_Time_Out = "";
       }
-      //..................
 
       //..................
       if (str_modes == "reg") {
