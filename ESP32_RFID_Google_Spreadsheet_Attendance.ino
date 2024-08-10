@@ -151,15 +151,7 @@ void http_Req(String str_modes, String str_uid) {
       }
     }
   } else {
-   // lcd.clear();
-   // delay(500);
-  //  lcd.setCursor(6,0);
- //   lcd.print("Error !");
-   // lcd.setCursor(1,1);
-   // lcd.print("WiFi disconnected");
-   // delay(3000);
-   // lcd.clear();
-  //  delay(500);
+   Serial.print("WiFi disconnected");
   }
 }
 
