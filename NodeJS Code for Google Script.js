@@ -5,7 +5,7 @@ function doGet(e) {
     result = 'No_Parameters';
   }
   else {
-    var sheet_id = ''; 	// Spreadsheet ID.
+    var sheet_id = ''; 	// Spreadsheet ID
     var sheet_UD = '';  // Sheet name for user data.
     var sheet_AT = '';  // Sheet name for attendance.
 
