@@ -13,7 +13,7 @@
 #define BTN_PIN 15
 
 //----------------------------------------SSID and PASSWORD of your WiFi network.
-const char* ssid = "SSID";  //--> Your wifi name
+const char* ssid = "SSID";  //--> Your wifi name.
 const char* password = "PASSWORD"; //--> Your wifi password
 
 // Google script Web_App_URL.
