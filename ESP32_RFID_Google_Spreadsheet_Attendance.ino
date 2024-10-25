@@ -14,7 +14,7 @@
 
 //----------------------------------------SSID and PASSWORD of your WiFi network.
 const char* ssid = "SSID";  //--> Your wifi name.
-const char* password = "PASSWORD"; //--> Your wifi password.
+const char* password = "PASSWORD"; //--> Your wifi password
 
 // Google script Web_App_URL.
 String Web_App_URL = "";
